@@ -266,8 +266,10 @@ p {
 	overflow: hidden;
 }
 
-.design-model li:nth-child(3) {
-	position: relative;
+.design-model img:hover {
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+	z-index: -1;
 }
 
 .design-model li:nth-child(3) a {
@@ -277,6 +279,7 @@ p {
 	font-size: 35px;
 	line-height: 30px;
 	color: #fff;
+	z-index: 10;
 }
 
 .design-model li:nth-child(3) span {
@@ -290,6 +293,7 @@ p {
 	letter-spacing: 1px;
 	color: #fff;
 	cursor: pointer;
+	z-index: 10;
 }
 
 /*Section team*/
