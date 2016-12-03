@@ -1,0 +1,419 @@
+/*---fonts---*/
+/*---lato-light---*/
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/Lato-Light.eot'); /* IE9 Compat Modes */
+  src: local('Lato Light'), local('Lato-Light'),
+       url('../fonts/Lato-Light.otf') format('opentype'), /* IE6-IE8 */
+       url('../fonts/Lato-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Lato-Light.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Lato-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Lato-Light.svg') format('svg'); /* Legacy iOS */
+}
+
+/*---lato-regular---*/
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Lato-Regular.eot'); /* IE9 Compat Modes */
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('../fonts/Lato-Regular.otf') format('opentype'), /* IE6-IE8 */
+       url('../fonts/Lato-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Lato-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Lato-Regular.svg') format('svg'); /* Legacy iOS */
+}
+
+/*---lato-bold---*/
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Lato-Bold.eot'); /* IE9 Compat Modes */
+  src: local('Lato Bold'), local('Lato-Bold'),
+       url('../fonts/Lato-Bold.otf') format('opentype'), /* IE6-IE8 */
+       url('../fonts/Lato-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Lato-Bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Lato-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Lato-Bold.svg') format('svg'); /* Legacy iOS */
+}
+
+/*---lato-black---*/
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/Lato-Black.eot'); /* IE9 Compat Modes */
+  src: local('Lato Black'), local('Lato-Black'),
+       url('../fonts/Lato-Black.otf') format('opentype'), /* IE6-IE8 */
+       url('../fonts/Lato-Black.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Lato-Black.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Lato-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Lato-Black.svg') format('svg'); /* Legacy iOS */
+}
+
+
+/*---common---*/
+
+.wrapper {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+	font-family: 'Lato';
+	overflow: hidden;
+
+	a {
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	h2 {
+		margin: 100px 0 70px;
+		text-align: center;
+		font-size: 50px;
+		font-weight: 300;
+		color: #3677fd;
+	}
+
+	p {
+		text-align: center;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 35px;
+		color: #5a5a5a;
+	}
+}
+
+.cookies {
+	background: #194277;
+	font-family: 'Lato';
+	-webkit-transition: all 0.5s;
+			transition: all 0.5s;
+
+	form {
+		padding: 20px 0;
+		text-align: center;
+
+		span {
+			margin-right: 50px;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 36px;
+			color: #fff;
+		}
+
+		.send {
+			width: 112px;
+			height: 30px;
+			background: #fff;
+			border-radius: 15px;
+			border: none;
+			font-size: 12px;
+			font-weight: 700;
+			line-height: 15px;
+			color: #194277;
+			cursor: pointer;
+		}
+	}
+}
+
+.welcome {
+	background: -webkit-linear-gradient(45deg, rgba(54,149,255,1) 12%,rgba(69,157,255,1) 12%,rgba(69,157,255,1) 12%,rgba(69,156,255,1) 29%,rgba(64,152,255,1) 30%,rgba(64,146,255,1) 44%,rgba(60,143,254,1) 45%,rgba(60,136,254,1) 60%,rgba(54,131,254,1) 61%,rgba(54,112,253,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, rgba(54,149,255,1) 12%,rgba(69,157,255,1) 12%,rgba(69,157,255,1) 12%,rgba(69,156,255,1) 29%,rgba(64,152,255,1) 30%,rgba(64,146,255,1) 44%,rgba(60,143,254,1) 45%,rgba(60,136,254,1) 60%,rgba(54,131,254,1) 61%,rgba(54,112,253,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3695ff', endColorstr='#3670fd',GradientType=1 );
+	overflow: hidden;
+
+	.button-nav {
+		float: right;
+		margin-top: 27px;
+		font-size: 25px;
+		color: #fff;
+		cursor: pointer;
+
+		i {
+			cursor: pointer;
+		}
+	}
+
+	.main-nav {
+		float: right;
+		margin-top: 10px;
+		margin-right: 40px;
+		font-size: 50px;
+		font-weight: 300;
+		-webkit-transition: right 1s ease-out 0s;
+		-moz-transition: right 1s ease-out 0s;
+		-o-transition: right 1s ease-out 0s;
+		transition: right 1s ease-out 0s;
+		z-index: 1;
+	}
+
+	.main-nav {
+		position: absolute;
+		right: -570px;
+	}
+
+	.main-nav.active {
+		right: 30px;
+	}
+
+	.main-nav li {
+		float: left;
+	}
+
+	.main-nav li a {
+		display: block;
+		margin-left: 40px;
+		margin-top: 18px;
+		font-size: 22px;
+		color: #fff;
+	}
+
+	.welcome-img {
+		width: 147px;
+		height: 147px;
+		margin: 100px auto 60px;
+		border-radius: 75px;
+		box-shadow: 0px 0px 0px 20px rgba(255,255,255,0.06);
+
+		img {
+			width: 147px;
+			height: 147px;
+			border-radius: 75px;
+			box-shadow: 0px 0px 0px 9px rgba(255,255,255,0.09);
+			overflow: hidden;
+		}
+	}
+
+	h1 {
+		width: 809px;
+		margin: 0 auto 40px;
+		text-align: center;
+		font-size: 50px;
+		font-weight: 900;
+		line-height: 60px;
+		text-transform: uppercase;
+		color: #fff;
+	}
+
+	.intro {
+		width: 765px;
+		height: 70px;
+		margin: 0 auto 70px;
+		text-align: center;
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 35px;
+		text-transform: uppercase;
+		color: #fff;
+		overflow: hidden;
+	}
+
+	.hire-me {
+		display: block;
+		width: 204px;
+		margin: 0 auto 90px;
+		background-color: #fff;
+		text-align: center;
+		border-radius: 27px;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 55px;
+		text-transform: uppercase;
+		color: #3695ff;
+	}
+
+	.scrol {
+		display: block;
+		width: 19px;
+		height: 32px;
+		margin: 0 auto 20px;
+		text-indent: -9000px;
+		background: url(../img/scrol.png) no-repeat;
+		overflow: hidden;
+	}
+}
+
+.about {
+	overflow: hidden;
+	p {
+		width: 1070px;
+		margin: 0 auto 110px;
+	}
+}
+
+.expert {
+	background-color: #f1f8ff;
+	overflow: hidden;
+
+	.branch {
+		display: flex;
+		margin: 0 auto 10px;
+		justify-content: center;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		overflow: hidden;
+
+		li:nth-child(3n+2) {
+			width: 305px;
+		}
+
+		li {
+			width: 360px;
+			margin: 0 25px 100px;
+			text-align: center;
+			overflow: hidden;
+
+			.mobile {
+				background: url(../img/6-layers.png) 35px 35px no-repeat;
+				display: block;
+				width: 142px;
+				height: 142px;
+				margin: 0 auto 55px;
+				border-radius: 71px;
+				border: 1px solid #b7c0c9;
+				overflow: hidden;
+			}
+
+			.web {
+				background: url(../img/6-layers.png) -355px 35px no-repeat;
+				@extend .mobile;
+			}
+
+			.web-development {
+				background: url(../img/6-layers.png) -745px 35px no-repeat;
+				@extend .mobile;
+			}
+
+			.product {
+				background: url(../img/6-layers.png) 35px -405px no-repeat;
+				@extend .mobile;
+			}
+
+			.ux-ui {
+				background: url(../img/6-layers.png) -355px -405px no-repeat;
+				@extend .mobile;
+			}
+
+			.animation {
+				background: url(../img/6-layers.png) -745px -405px no-repeat;
+				@extend .mobile;
+			}
+
+			h3 {
+				font-size: 24px;
+				font-weight: 700;
+				line-height: 24px;
+				text-transform: uppercase;
+				color: #3677fd;
+			}
+
+			p {
+				height: 100px;
+			}
+		}
+	}	
+}
+
+.works {
+	.portfolio {
+		display: flex;
+		margin: 0 auto 170px;
+		justify-content: center;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		overflow: hidden;
+
+		li {
+			@for $i from 1 through 3 {
+				&:nth-child(#{$i}) {
+					position: relative;
+					width: 361px;
+					height: 261px;
+					margin: 10px;
+					border-radius: 10px;
+					background-color: #f4f4f4;
+
+					img {
+						position: absolute;
+						bottom: -1px;
+						left: 50%;
+						transform: translateX(-50%);
+					}
+				}
+			}
+		}
+
+		li {
+			@for $i from 4 through 6 {
+				&:nth-child(#{$i}) {
+					@extend li:nth-child(1);
+					img {
+						bottom: 50%;
+						left: 50%;
+						transform: translateY(50%) translateX(-50%);
+					}
+				}
+			}
+		}
+	}
+}
+
+.clients {
+	background-color: #f1f8ff;
+	overflow: hidden; 
+
+	ul {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		margin-bottom: 110px;
+	}
+}
+
+.hire {
+	background: -webkit-linear-gradient(45deg, rgba(54,149,255,1) 12%,rgba(69,157,255,1) 12%,rgba(69,157,255,1) 12%,rgba(69,156,255,1) 29%,rgba(64,152,255,1) 30%,rgba(64,146,255,1) 44%,rgba(60,143,254,1) 45%,rgba(60,136,254,1) 60%,rgba(54,131,254,1) 61%,rgba(54,112,253,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, rgba(54,149,255,1) 12%,rgba(69,157,255,1) 12%,rgba(69,157,255,1) 12%,rgba(69,156,255,1) 29%,rgba(64,152,255,1) 30%,rgba(64,146,255,1) 44%,rgba(60,143,254,1) 45%,rgba(60,136,254,1) 60%,rgba(54,131,254,1) 61%,rgba(54,112,253,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3695ff', endColorstr='#3670fd',GradientType=1 );
+	font-family: 'Lato';
+	overflow: hidden;
+
+	form {
+		padding: 90px 0;
+		text-align: center;
+
+		.font-light {
+			margin-right: 60px;
+			vertical-align: middle;
+			font-size: 50px;
+			font-weight: 400;
+			font-weight: 300;
+			color: #fff;
+
+			.font-bold {
+				font-weight: 700;
+			}
+		}
+
+		.send {
+			width: 204px;
+			height: 55px;
+			background: #fff;
+			border-radius: 27px;
+			border: none;
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 30px;
+			color: #3695ff;
+			cursor: pointer;
+		}
+	}
+}
