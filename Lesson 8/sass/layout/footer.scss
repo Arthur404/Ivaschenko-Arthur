@@ -1,0 +1,18 @@
+footer {
+  background: #3b434c;
+  color: #fff;
+  padding: 0 10px;
+  .copy {
+    width: 40%;
+    float: left;
+    text-transform: uppercase;
+    line-height: 20px;
+  }
+  .symu-addr {
+    float: right;
+    text-transform: uppercase;
+    img {
+      vertical-align: middle;
+    }
+  }
+}

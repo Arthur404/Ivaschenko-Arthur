@@ -1,0 +1,43 @@
+.btn {
+  display: block;
+  text-align: center;
+  border: 1px solid #65696f;
+  border-radius: 7px;
+  text-transform: uppercase;
+  background: transparent;
+  color: #fff;
+  transition: 0.3s all ease-out;
+  cursor: pointer;
+  &:hover {
+    outline: none;
+    background-color: #f7600e;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.bx-prev {
+  display: block;
+  position: absolute;
+  width: 21px;
+  height: 40px;
+  background: url("../img/prev.png") no-repeat;
+  top: 20%;
+  left: -10%;
+  margin-top: 20px;
+  text-indent: 99999px;
+  z-index: 100;
+}
+.bx-next {
+  display: block;
+  position: absolute;
+  width: 21px;
+  height: 40px;
+  background: url("../img/next.png") no-repeat;
+  top: 20%;
+  right: -10%;
+  margin-top: 20px;
+  text-indent: 99999px;
+  z-index: 100;
+}

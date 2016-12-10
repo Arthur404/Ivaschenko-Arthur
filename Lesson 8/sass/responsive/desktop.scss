@@ -1,0 +1,53 @@
+@media screen and (min-width: 992px) {
+  .wrapper:not(.hero .wrapper) {
+    padding: 90px 0;
+  }
+  .btn {
+    width: 13vw;
+    line-height: 40px;
+    font-size: 0.8em;
+  }
+  .about {
+    width: 100%;
+  }
+  .form-wrap {
+    width: 880px;
+    .btn {
+      width: 13vw;
+    }
+  }
+  .sub-email {
+    height: 35px;
+    width: 500px;
+    font-size: 1em;
+  }
+  .team {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .feedback input {
+    height: 40px;
+    width: 395px;
+    font-size: 1em;
+  }
+  .feedback textarea {
+    width: 830px;
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    width: 1170px;
+  }
+  header {
+    width: 1170px;
+  }
+  .btn {
+    width: 170px;
+  }
+  .team {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

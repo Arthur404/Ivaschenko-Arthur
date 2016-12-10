@@ -1,0 +1,60 @@
+.hero {
+  background: url("../img/bg-hero.jpg") center no-repeat;
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+  .logo {
+    float: left;
+    width: 158px;
+    height: 18px;
+    overflow: hidden;
+  }
+  .main-nav {
+    float: right;
+    color: #fff;
+    .menu {
+      display: inline-block;
+      margin-right: 15px;
+    }
+    .menu-btn {
+      display: inline-block;
+      width: 25px;
+      cursor: pointer;
+    }
+    .main-menu {
+      display: none;
+    }
+  }
+  .slogan {
+    text-align: center;
+    margin-top: 20vh;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .intro {
+    display: block;
+    width: 65%;
+    margin: 4vh auto 7vh;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+  }
+  .hero-btn {
+    display: flex;
+    justify-content: center;
+    li {
+      margin: 0 5%;
+    }
+  }
+  .scrol {
+    display: block;
+    width: 34px;
+    height: 34px;
+    margin: 22vh auto 0;
+    text-indent: -9000px;
+    background: url(../img/scrol.png) no-repeat;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,42 @@
+.about {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  li {
+    text-align: center;
+    margin: 6%;
+    h3 {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px;
+      color: #3b434c;
+    }
+    p {
+      display: block;
+      width: 120px;
+    }
+  }
+  span {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 15px;
+    border-radius: 71px;
+    border: 1px solid #b7c0c9;
+    overflow: hidden;
+  }
+  .print-design {
+    background: url("../img/layers.png") 35px 35px no-repeat;
+  }
+  .web-design {
+    background: url("../img/layers.png") -255px 35px no-repeat;
+  }
+  .app-design {
+    background: url("../img/layers.png") -545px 35px no-repeat;
+  }
+  .logo-design {
+    background: url("../img/layers.png") -840px 35px no-repeat;
+  }
+}

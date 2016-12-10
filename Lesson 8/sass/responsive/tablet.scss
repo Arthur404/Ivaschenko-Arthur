@@ -1,0 +1,43 @@
+@media screen and (min-width: 768px) {
+  p {
+    height: 56px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .about h3 {
+    font-size: 15px;
+  }
+  .menu {
+    visibility: visible;
+  }
+  .slogan {
+    font-size: 3em;
+  }
+  .intro {
+    font-size: 1.1em;
+    height: 50px;
+    line-height: 25px;
+  }
+  .btn {
+    width: 15vw;
+    line-height: 35px;
+    font-size: 0.75em;
+  }
+  .about {
+    width: 70%;
+  }
+  .team {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .form-wrap {
+    width: 610px;
+    .btn {
+      width: 15vw;;
+    }
+  }
+  .feedback textarea {
+    width: 560px;
+    height: 200px;
+  }
+}

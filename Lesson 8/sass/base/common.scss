@@ -1,0 +1,43 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+
+
+.bg-wrap {
+  background: rgba(59,67,76,0.9);
+  height: inherit;
+}
+
+.orange {
+  color: #f7600e;
+}
+
+p {
+  text-align: center;
+  font-weight: 400;
+  color: #3b434c;
+  overflow: hidden;
+}
+input {
+  line-height: 20px;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  font-weight: 300;
+  color: #3b434c;
+  &:focus:not(.btn) {
+    outline: none;
+    border: 3px solid #f7600e;
+  }
+}
+.title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #3b434c;
+}

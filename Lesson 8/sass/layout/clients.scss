@@ -1,0 +1,36 @@
+.clients {
+  background: url("../img/bg-client.jpg") center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  .bg-wrap {
+    padding: 50px 10px;
+  }
+  .client-info {
+    display: flex;
+    margin: 10px auto;
+    width: 70%;
+    position: relative;
+    text-align: center;
+    li {
+      overflow: hidden;
+    }
+    img{
+      width: 120px;
+      height: 120px;
+      margin-bottom: 20px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    p {
+      padding-bottom: 40px;
+      line-height: 40px;
+      font-size: 20px;
+      font-style: italic;
+      color: #fff;
+    }
+    h5{
+      font-size: 14px;
+      color: #fff;
+    }
+  }
+}

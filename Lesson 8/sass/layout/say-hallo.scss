@@ -1,0 +1,16 @@
+.say-hello {
+  background: url("../img/bg-feed.jpg") center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  .bg-wrap {
+    padding: 0 30px;
+  }
+  h2 {
+    color: #fff;
+  }
+  p {
+    width: 70%;
+    margin: 20px auto 40px;
+    color: #fff;
+  }
+}

@@ -1,0 +1,65 @@
+.our-works {
+  p {
+    width: 70%;
+    margin: 10px auto;
+    color: #3b434c;
+  }
+}
+.portfolio {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 30px auto;
+  overflow: hidden;
+  li {
+    margin: 10px;
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+  }
+  img {
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .active {
+    display: none;
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    background-color: rgba(247,96,14,.9);
+    border-radius: 10px;
+    overflow: hidden;
+    h4 {
+      margin-top: 25%;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 15px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    p {
+      width: 80%;
+      margin: 20px auto;
+      color: #fff;
+    }
+    a.btn {
+      margin: 30px auto;
+      border: 1px solid #fff;
+    }
+    a.btn:hover {
+      background-color: #fff;
+      color: #f7600e;
+    }
+  }
+}
+li:hover .active {
+  display: block;
+}
+button.btn {
+  margin: 0 auto;
+  color: #3b434c;
+}
