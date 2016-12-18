@@ -1,0 +1,21 @@
+.carousel-control.right {
+  background: none;
+  right: -5%;
+}
+.carousel-control.left {
+  background: none;
+  left: -5%;
+}
+.glyphicon-chevron-left:before {
+  content: "\f104";
+  font-family: 'FontAwesome';
+  font-size: 30px;
+}
+.glyphicon-chevron-right:before {
+  content: "\f105";
+  font-family: 'FontAwesome';
+  font-size: 30px;
+}
+.point {
+  bottom: -30%;
+}

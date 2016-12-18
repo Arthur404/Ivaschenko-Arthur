@@ -1,0 +1,60 @@
+.about {
+  padding: 70px 0;
+  overflow: hidden;
+  p {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .btn {
+    background-color: #17daa3;
+  }
+}
+
+.about-us {
+  margin: 50px 0px 10px;
+  li {
+    margin: 50px 0;
+  }
+  li:hover span {
+    background-color: #17daa3;
+    img {
+      filter: brightness(5);
+    }
+  }
+  span {
+    display: block;
+    width: 182px;
+    height: 182px;
+    margin: 0 auto 40px;
+    background-color: #edeff1;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 0.2s all ease-out;
+    cursor: pointer;
+    img {
+      margin-top: 60px;
+    }
+    &.atom img {
+      width: 60px;
+      margin-top: 55px;
+    }
+  }
+}
+
+.photo {
+  padding-top: 100px;
+  .title {
+    margin: 0;
+    text-align: left;
+    &:before {
+      border-bottom: none;
+    }
+  }
+  p {
+    text-align: left;
+  }
+  span {
+    margin-top: 40px;
+    float: left;
+  }
+}

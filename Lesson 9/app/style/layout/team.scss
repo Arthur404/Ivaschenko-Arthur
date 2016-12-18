@@ -1,0 +1,44 @@
+.team {
+  padding: 70px 0;
+  overflow: hidden;
+  p {
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+.our-team {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin: 50px -15px 0;
+  padding: 0;
+  li {
+    position: relative;
+    width: 50vw;
+    margin-bottom: -3px;
+    transition: 0.5s all ease-out;
+  }
+  img {
+    width: 100%;
+  }
+  .active {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(23, 218, 163, .9);
+    overflow: hidden;
+    cursor: pointer;
+    h3 {
+      width: 70%;
+      text-align: center;
+      margin: 30% auto 0;
+      font-size: 25px;
+      color: #fff;
+    }
+  }
+  li:hover .active {
+    display: block;
+  }
+}

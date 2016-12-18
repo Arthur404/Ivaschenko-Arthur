@@ -1,0 +1,27 @@
+.world {
+  padding: 50px 0;
+  overflow: hidden;
+  h2 {
+    margin: 0;
+    text-align: left;
+    &:before {
+      border-bottom: none;
+    }
+  }
+  p {
+    margin-top: 35px;
+    text-align: left;
+  }
+  .btn {
+    float: left;
+    margin-top: 60px;
+    background-color: #17daa3;
+  }
+  .map {
+    margin: 5% -15px;
+  }
+  img {
+    width: 100%;
+    margin: 20px;
+  }
+}

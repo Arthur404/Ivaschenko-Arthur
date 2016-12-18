@@ -1,0 +1,47 @@
+.services {
+  padding: 70px 0 20px;
+  overflow: hidden;
+  p {
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+.work {
+  padding-top: 100px;
+  .icon-services {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s all ease-out;
+    &:hover {
+      background-color: #17daa3;
+    }
+    &:hover img{
+      filter: brightness(10);
+    }
+  }
+  li {
+    margin-bottom: 70px;
+  }
+  img {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 26px;
+    transition: 0.3s all ease-out;
+  }
+  .title {
+    text-align: left;
+    margin: 0;
+    &:before {
+      border-bottom: none;
+    }
+  }
+  p {
+    text-align: left;
+  }
+}

@@ -1,0 +1,59 @@
+@media (min-width: 992px) {
+
+  /*common*/
+  section{
+    .slogan {
+      width: 80%;
+      margin: 0 auto;
+      font-size: 60px;
+    }
+  }
+
+  /*about*/
+  .about {
+    padding: 80px 0 150px;
+    .photo {
+      padding-top: 250px;
+    }
+  }
+
+  /*clients*/
+  .clients {
+    img {
+      margin: 40px auto;
+    }
+    h3 {
+      margin: 0 auto 30px;
+    }
+    p {
+      margin-bottom: 40px;
+    }
+  }
+
+  /*services*/
+  .work {
+    .icon-services {
+      top: 10px;
+      left: -20px;
+      width: 90px;
+      height: 90px;
+    }
+    img {
+      top: 30px;
+      left: 30px;
+      width: 32px;
+    }
+    p {
+      line-height: 48px;
+    }
+  }
+
+  /*pricing*/
+  .pricing {
+    .row {
+      .price {
+        font-size: 60px;
+      }
+    }
+  }
+}

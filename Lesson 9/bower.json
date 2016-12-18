@@ -1,0 +1,23 @@
+{
+  "name": "Alecto",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Arthur404/Ivaschenko-Arthur",
+  "authors": [
+    "Arthur404 <ananarben@gmail.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "3.1.1",
+    "normalize-scss": "3.0.3",
+    "font-awesome": "fontawesome#4.7.0",
+    "bootstrap": "3.3.7",
+    "reset-css": "2.2.0"
+  }
+}

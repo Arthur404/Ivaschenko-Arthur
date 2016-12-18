@@ -1,0 +1,25 @@
+@media (min-width: 1200px) {
+  .pricing {
+    .row {
+      p {
+        line-height: 48px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+
+  /*common*/
+  .container {
+    width: 1400px;
+  }
+}
+
+@media (min-width: 1800px) {
+
+  /*common*/
+  .container {
+    width: 1600px;
+  }
+}

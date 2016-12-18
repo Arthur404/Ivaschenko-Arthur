@@ -1,0 +1,53 @@
+.pricing {
+  padding: 50px 0;
+  p {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .row {
+    margin: 50px 0;
+  .block-price {
+    border-radius: 5px;
+    box-shadow: 0 0 70px rgba(227, 227, 227, 0.8);
+    overflow: hidden;
+  }
+    .price {
+      display: block;
+      margin: 30px 20px 0;
+      font-size: 45px;
+      font-weight: 200;
+      color: #17daa3;
+    }
+    .license {
+      padding: 5px 20px 35px;
+      text-align: left;
+      font-size: 16px;
+      border-bottom: 1px solid #c9cfd3;
+      opacity: 0.45;
+      color: #87949e;
+    }
+    p {
+      padding: 40px 20px;
+      text-align: left;
+    }
+    .buy {
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 0 0 5px 5px;
+      background-color: #17daa3;
+      cursor: pointer;
+      .purch {
+        font-family: 'ProximaNova';
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+      }
+      i {
+        margin-top: -5px;
+        float: right;
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+  }
+}

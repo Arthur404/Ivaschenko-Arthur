@@ -1,0 +1,72 @@
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("../img/bg-hero.jpg") 50% 0 /cover no-repeat;
+  height: 100vh;
+  padding: 3% 0;
+  .logo {
+    width: 108px;
+    height: 27px;
+    margin: 5px 0;
+    overflow: hidden;
+  }
+  .main-nav  {
+    .toggle-title {
+      font-size: 24px;
+      color: #fff;
+    }
+    .navbar-toggle {
+      margin: 10px 0 5px;
+      padding: 0;
+    }
+    .navbar-nav {
+      margin: 0 -15px;
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+      z-index: 10;
+    }
+    a {
+      padding: 3px;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      transition: 0.3s all ease-out;
+      color: #fff;
+      &:hover {
+        background: none;
+        color: #17daa3;;
+      }
+      i {
+        font-size: 16px;
+      }
+    }
+  }
+  .intro-content {
+    width: 100%;
+    padding: 0 5%;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    .slogan {
+      margin-bottom: 3%;
+    }
+    .intro {
+      font-size: 14px;
+      margin-bottom: 5%;
+    }
+  }
+  .scrol {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.5;
+    font-weight: 300;
+    transform: translateX(-50%);
+    transition: 0.3s all ease-out;
+    &:hover {
+    opacity: 1;
+  }
+  }
+}

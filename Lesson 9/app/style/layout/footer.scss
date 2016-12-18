@@ -1,0 +1,40 @@
+footer {
+  height: 350px;
+  padding: 60px 0;
+  overflow: hidden;
+  .copy {
+    float: left;
+    font-family: 'ProximaNova';
+    margin-left: 50px;
+    margin-right: -15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #87949e;
+    overflow: hidden;
+    &:before {
+      content: url("../img/vector.png");
+      position: absolute;
+      top: -5px;
+      left: 10px;
+    }
+  }
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    li {
+      float: left;
+      padding: 0 2%;
+      a {
+        font-family: "ProximaNova";
+        font-size: 18px;
+        font-weight: 400;
+        color: #87949e;
+        &:hover {
+          text-decoration: none;
+          color: #17daa3;
+        }
+      }
+    }
+  }
+}
